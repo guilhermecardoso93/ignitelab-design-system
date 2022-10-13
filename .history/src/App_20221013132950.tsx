@@ -58,9 +58,9 @@ export function App() {
         </Button>
       </form>
 
-      <footer className="flex flex-col items-center gap-4 mt-8">
+      <footer className="flex flex-col items-center gap-4 mt-8 hover:text-gray-200">
         <Text asChild size="sm">
-          <a href="#" className="text-gray-400 underline hover:text-gray-200">
+          <a href="#" className="text-gray-400 underline">
             Esqueceu sua senha
           </a>
         </Text>

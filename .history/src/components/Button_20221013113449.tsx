@@ -18,7 +18,7 @@ export function Button({
   return (
     <Comp
       className={clsx(
-        "py-3 px-4  text-black bg-cyan-500 rounded font-semibold  text-sm w-full transition-colors hover:bg-cyan-300 focus:ring-2 ring-white",
+        "py-4 px-3  text-black bg-cyan-500 rounded font-semibold  text-sm w-full transition-colors hover:bg-cyan-300 focus:ring-2 ring-white",
         className
       )}
       {...props}

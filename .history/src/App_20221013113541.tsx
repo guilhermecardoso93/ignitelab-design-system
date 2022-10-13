@@ -26,11 +26,7 @@ export function App() {
             <TextInput.Icon>
               <Envelope />
             </TextInput.Icon>
-            <TextInput.Input
-              id="email"
-              type="email"
-              placeholder="Digite seu e-mail"
-            />
+            <TextInput.Input id="email" type='email' placeholder="Digite seu e-mail" />
           </TextInput.Root>
         </label>
         <label htmlFor="email" className="flex flex-col gap-2 mt-4">
@@ -48,27 +44,15 @@ export function App() {
         </label>
 
         <label htmlFor="remember" className="flex item-center gap-2">
-          <Checkbox id="remember" />
-          <Text size="sm" className="text-gray-200">
+          <Checkbox id='remember' />
+          <Text size='sm'  className="text-gray-200">
             Lembrar de mim por 30 dias
           </Text>
         </label>
-        <Button type="submit" className="mt-4">
-          Entrar na plataforma
-        </Button>
+        <Button type='submit' className='mt-4'>Entrar na plataforma</Button>
       </form>
+      <footer className='flex flex-col items-center gap-4 mt-8'>
 
-      <footer className="flex flex-col items-center gap-4 mt-8">
-        <Text asChild size="sm">
-          <a href="#" className="text-gray-400 underline hover:text-gray-200">
-            Esqueceu sua senha
-          </a>
-        </Text>
-        <Text asChild size="sm">
-          <a href="#" className="text-gray-400 underline hover:text-gray-200">
-            Não possui Conta? Crie uma agora!
-          </a>
-        </Text>
       </footer>
     </div>
   );
